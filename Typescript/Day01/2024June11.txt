@@ -1,0 +1,40 @@
+			Welcome To Angular Module 
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+
+
+
+- daily session tue to frid  
+- time avg duration 1.15 min it may be increase upto 1.30 min or it may be decarease upto 1hr it depends on topic 
+- Duration 50hr
+- All recording will given after the session but that recording is avaialble on cloud arround 3-4 days it is auto deleted 
+- All codes will be given => git hub repo 
+- all images will given on ur whts up group 
+- first we learn Typescript 
+- we learn Angular freamwork 
+
+- what i expected from u all 
+ 1 U know the OOPS Concept 
+ 2 Basic knowledge of HTML & CSS 
+ 3 Timely Join 
+ 4 Two way communication 
+  
+  fee Structure => 7000
+	1 first installatment => 3500 => within 10days paid 
+	2 2nd installatment => 3500 => 25 -22 days after 1st installatment to be paid
+
+	
+
+
+
