@@ -1,0 +1,26 @@
+Last Lecture Agenda
+1 Type Assertion 
+	1 angle bracket 
+		var temp=(<string> a);
+		
+	2 as synatx
+		var temp=(a as string )
+2 Operators=> ===
+3 Sequential Statement/control
+4 Loop Statement
+5 var Vs let Vs const 
+6 Functions 
+	function add(a:number,b:number):number{
+		rerurn (a+b)
+	}
+
+
+Today's Lecture Agenda
+1 anonymous function
+2 fat arrow function
+3 optional parameter function
+4 default parameter function
+5 array 
+6 join
+7 foreach
+8 push & pop
