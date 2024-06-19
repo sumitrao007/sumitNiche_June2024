@@ -1,0 +1,42 @@
+Last Lecture Agenda
+1 anonymous function
+let temp1=function (){
+		....
+	}
+	temp1()
+2 fat arrow function
+ let temp2=(a:number,b:number):number=>{
+		return (a+b);
+	}
+	temp2(10,20)
+3 optional parameter function
+	function add1(a?:number,b?:number){
+		....
+	}
+4 default parameter function
+
+function add1(a:number,b:number=20){
+		....
+	}
+5 array 
+	let a:number[]=[];
+	let a:number[]=[10,20];
+	let a:=[2.5,''];
+	let a:any[]=[];
+6 join
+	console.log(a.join(" "))
+7 foreach
+	a.foreach((myvalue,i,arr)=>{
+		....
+	})
+8 push & pop
+	a.push(10);
+	a.push(20,30);
+	a.pop()
+
+Today's Lecture Agenda
+1 splice 
+2 slice 
+3 map 
+4 array destructor
+5 Shallow copy & deep copy 
