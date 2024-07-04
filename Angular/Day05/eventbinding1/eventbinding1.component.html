@@ -1,0 +1,39 @@
+<p>eventbinding1 works!</p>
+
+<!-- $event
+    - It is special variable given by angular 
+    - It gives current DOM Element information(json object) 
+    - U can apply any HTML tag 
+    - It gives to access only data
+-->
+
+<!-- <button value="Doller Event..." (click)="onSend($event)" >Send</button> -->
+
+
+<!-- template ref Variable 
+    - It is gives the access/handle of DOM element
+    - We have use #uniquename
+    - U can apply Any HTML Tag 
+    - It gives to access as well as manipulate the behaviour 
+-->
+<!-- <input #inputname  type="text" placeholder="Enter the name.."><br><br>
+<button (click)="onSendData(inputname)" >Send Data</button> -->
+
+<!-- <h2> {{name}} </h2> -->
+<!-- <hr>
+<input #inputname1  type="text" placeholder="Enter the name.."><br><br>
+<button (click)="onSendData1(inputname1.value)" >Send Data</button> -->
+
+<label for="mynum1">Num1:: &nbsp;&nbsp; </label>
+<input #num1 type="text" placeholder="Enter the Num1" id="mynum1"><br><br>
+
+<label>Num2:: &nbsp;&nbsp; </label>
+<input #num2 type="text" placeholder="Enter the Num2"><br><br>
+
+<button (click)="onAddition(num1.value,num2.value)" >Addition</button> <br><br>
+
+<label>Result:: &nbsp;&nbsp; </label>
+<input type="text" 
+    [value]="result"
+placeholder="Result"><br><br>
+

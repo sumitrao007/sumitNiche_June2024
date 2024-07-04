@@ -1,0 +1,12 @@
+Last Lecture Agenda
+1 splice 
+2 slice 
+3 map 
+4 array destructor
+5 Shallow copy & deep copy 
+
+Today's Lecture Agenda
+1 swap the 2 values without using 3rd variable 
+2 return multiple value from the function
+3 json Object
+4 Array of Object
