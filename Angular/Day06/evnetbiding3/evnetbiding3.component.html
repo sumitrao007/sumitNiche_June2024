@@ -1,0 +1,22 @@
+<p>evnetbiding3 works!</p>
+
+<!-- - U will get updated data(value only) into the property 
+	- U can apply any html tag 
+	- ngModel => It is attribute directive 
+	- FormsModule => import app.module.ts => import section 
+	- banana in the box notation 
+	- [(ngModel)]="PropertyName" -->
+
+<input type="text" [(ngModel)]="name"   placeholder="Enter the Name">
+<h2> {{name}} </h2>
+<hr>
+
+<input [(ngModel)]="username" type="text" placeholder="Enter the Username"> <br><br>
+<input [(ngModel)]="password" type="password" placeholder="Enter the Password"> <br><br>
+<button (click)="onLogin()" >Login</button>
+
+<hr>
+
+<!-- <input type="text" [(ngModel)]="mywidth" [size]="mywidth"  placeholder="Enter the number"> -->
+
+<input type="number" [(ngModel)]="mywidth" [style.width]="mywidth+'px'"  placeholder="Enter the number">
