@@ -1,0 +1,14 @@
+<p>eventbinding4 works!</p>
+<input type="text" (keyup)="onKeyUp()"  placeholder="KeyUp event">
+<br><br>
+<input type="text" (keydown)="onKeyDown()"  placeholder="KeyDown event">
+
+<hr>
+<input #name (keyup)="onKeyUpname(name.value)" type="text" placeholder="Enter the Name">
+<hr>
+
+<input (keyup.enter)="onKeyEnter()" type="text" placeholder="Enter the Name">
+<hr>
+
+<button (click)="result=8+8" >Addition</button>
+<h2>Addition :: {{result}} </h2>
