@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+
+tr,th,td{
+    border: 1px solid;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.highlight{
+    background: green;
+    color: white;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
