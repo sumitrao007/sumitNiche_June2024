@@ -1,0 +1,9 @@
+Last Lecture Agenda
+1 ngSwitch
+
+Today's Lecture Agenda
+1 Component Interaction
+	- u can send data from one component to another component
+	- Parent-child Relation establishment 
+2 @Input Decorator
+	- To send data from parent component to child component
