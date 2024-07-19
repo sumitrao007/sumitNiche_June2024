@@ -1,0 +1,7 @@
+<p>child2 works!</p>
+
+<button (click)="onSend()" >Send</button> <br><br>
+<button (click)="onMaleData()"  >Male Data</button>
+<br><br>
+<small> {{rangevalue}} </small><br>
+<input (change)="onRangeChange()" [(ngModel)]="rangevalue" type="range" min="0" max="1000" step="1">
