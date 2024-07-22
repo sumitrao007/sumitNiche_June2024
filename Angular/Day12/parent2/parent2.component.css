@@ -1,0 +1,20 @@
+
+.divbg{
+    background-color: blue;
+    color: white;
+}
+
+.mainDiv{
+    display: flex;
+    
+}
+
+.childDiv{
+left: 50%;
+    transform: translate(50%,-10%);
+}
+
+.btndiv button{
+    margin: 10px;
+    padding: 5px;
+}

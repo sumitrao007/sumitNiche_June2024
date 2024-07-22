@@ -1,0 +1,8 @@
+Last Lecture Agenda
+1 @Output
+	- To send data from child component to parent component
+	
+Today's Lecture Agenda
+1 @ViewChild
+	1 If u want to access Html element into ur component file directly 
+	2 if u want access child property Or method in parent ts file 

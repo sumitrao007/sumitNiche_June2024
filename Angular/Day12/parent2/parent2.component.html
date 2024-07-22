@@ -1,0 +1,14 @@
+<p>parent2 works!</p>
+
+<div #mydiv id="abc">
+    You are accessing html Div element
+</div>
+
+<hr>
+<div class="mainDiv">
+    <div class="btndiv"> 
+        <button (click)="onPropertyAccess()" >Child Property Access</button> 
+        <button (click)="onMethodAccess()" >Child Method Access</button>
+    </div>
+    <div class="childDiv"><app-child3></app-child3></div>
+</div>
