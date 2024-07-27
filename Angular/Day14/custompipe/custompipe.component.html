@@ -1,0 +1,9 @@
+<p>custompipe works!</p>
+
+<h2> {{strDetails}} </h2>
+
+<h2> {{strDetails | summary:0:45|titlecase|slice:0:10}} </h2>
+
+<!-- <h2> {{strDetails | summary}} </h2> -->
+
+ <input type="text" [(ngModel)]="myname" [value]="myname|uppercase"  placeholder="Enter the Name">

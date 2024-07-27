@@ -1,0 +1,24 @@
+Last Lecture Agenda
+1 inbuilt Pipe
+	- u can transform ur data without changing its original value 
+	string => lowercase,uppercase,titlecase,slice
+	percent=>
+	<h2> {{0.25 | percent}}</h2>
+	<h2> {{0.025 | percent: '1.1'}}</h2>
+	
+	<h2> {{0.25 | currency}}</h2>
+	<h2> {{0.25 | currency:'INR':'code'}}</h2>
+	
+	<h2> {{5.6784569 | number:'1.2-3'}}</h2>
+	
+	<h2> {{mydate | date:'mediumDate'}}</h2>
+	<h2> {{mydate | date:'dd-MM-yyyy'}}</h2>
+	<h2> {{mydate | date:'longDate' | uppercase}}</h2>
+
+
+Today's Lecture Agenda
+1 Custom Pipe => User defined pipe 
+2 PipeTransform => It is interface
+3 transform method => Implement 
+4 Pure Pipe & impure Pipe 
+5 @Pipe
