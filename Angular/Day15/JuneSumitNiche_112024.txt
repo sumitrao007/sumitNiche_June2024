@@ -1,0 +1,18 @@
+Last Lecture Agenda
+1 Custom Pipe => User defined pipe 
+2 PipeTransform => It is interface
+3 transform method => Implement 
+4 Pure Pipe & impure Pipe 
+5 @Pipe
+
+Today's Lecture Agenda
+1 Services
+	- It is a simple class 
+	- It is used for to write our business logic 
+	- It is used for code reuseablity. 
+	- It is used for code maintability.
+	- It is used to connect your backend server to front end server.
+	- It is used for auth purpose 
+	- U can send data to multiple component.
+	- It provide isolation to ur component.
+2 Dependancy Injection
