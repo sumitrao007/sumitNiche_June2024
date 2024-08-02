@@ -1,0 +1,44 @@
+<p>post works!</p>
+
+
+<div>
+    <label for="">Student Name::&nbsp;&nbsp;</label>
+    <input #inputname type="text" placeholder="Enter the name"><br><br>
+    <label for="">Student Phone No::&nbsp;&nbsp;</label>
+    <input #inputNo type="number" placeholder="Enter the Phone No"><br><br>
+    <button (click)="onSend(inputname.value,inputNo.value)" >Send</button>
+</div>
+
+<hr>
+
+<div [hidden]="isHidden">
+    <label for="">ID::</label>
+    <input [(ngModel)]="studdata.id" type="text" placeholder="Enter the ID" readonly><br><br>
+    <label for="">Name:: </label>
+    <input [(ngModel)]="studdata.name" type="text" placeholder="Enter the Name"><br><br>
+    <label for="">Phone No:: </label>
+    <input [(ngModel)]="studdata.phoneno" type="number" placeholder="Enter the Phone No"><br><br>
+    <button (click)="onUpdate()" >Update</button>
+</div>
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>Sr No</th>
+            <th>Student Name</th>
+            <th>Student Phone No</th>
+            <th>created Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of studentData;index as i">
+            <td> {{i+1}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.phoneno}} </td>
+            <td> {{item.createddate | date:'dd-MM-yyyy'}} </td>
+            <td><button (click)="onEdit(item)" >Edit</button></td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,76 @@
+Last Lecture Agenda
+1 Http Services 
+	HttpClientModule
+	app.module.ts file => import section import 
+2 Http Method
+	1 get => if u want fetch a data from backend server
+	2 post => if u want send data from frontend server to backend server 
+	3 put  => To update a particular data 
+	4 delete  => To delete a particular data 
+	
+3 Http Request/Response
+It has two parts 
+	
+	Http Request= http header + http body
+	
+	http header
+		- request method => get,post,put,delete 
+		- ip 
+		- date info 
+		- server address
+		- content type 
+			- audio
+			- video
+			- pdf
+			- json 
+			-image
+			-text/html 
+		- auth token 
+		- http version name 
+		...
+	http body
+		- data 
+			1 json 
+			2 text/html 
+			3 xml => (outdated)
+			
+	
+	Http Response= http header + http body
+	
+	http header
+		- request method => get,post,put,delete 
+		- ip 
+		- date info 
+		- server address
+		- content type 
+			- audio
+			- video
+			- pdf
+			- json 
+			-image
+			-text/html 
+		- auth token 
+		- http version name 
+		- status code 
+			1 2xx => 200-299 => success,ok 
+			2 3xx => 300-399 => redirection 
+			3 4xx => 400-499 => client side 
+			4 5xx => 500-599 => serve side 
+		...
+	http body
+		- data 
+			1 json 
+			2 text/html 
+			3 xml => (outdated)
+			
+	http end point url
+	
+	http://localhost:8080/apiName
+	
+	
+5 @Injectable
+6 Observable
+
+Today's Lecture Agenda
+1 post request 
+2 put request 
