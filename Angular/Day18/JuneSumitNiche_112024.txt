@@ -1,0 +1,7 @@
+Last Lecture Agenda
+1 post request 
+2 put request 
+
+Today's Lecture Agenda
+1 delete request
+2 Error Handling
