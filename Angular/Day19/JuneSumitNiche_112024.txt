@@ -1,0 +1,40 @@
+Last Lecture Agenda
+1 delete request
+2 Error Handling
+
+
+Today's Lecture Agenda
+1 Routing
+	- navigation from one component to another component
+		steps
+			1 configure the route 
+			2 use <router-outlet> => component directive
+			3 establish the link/navigate to the component
+2 empty path 
+3 wild cart Operator
+4 send parameter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
