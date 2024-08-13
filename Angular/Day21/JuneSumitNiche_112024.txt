@@ -1,0 +1,43 @@
+Last Lecture Agenda
+1 query parameter
+	<a routerLink="..." [queryParams]="json" >
+2 Dynamic routing
+	- U can navigate from Component file 
+	- Router Dependancy 
+	- Navigate method 
+
+
+
+Today's Lecture Agenda
+1 Child Routes
+	
+2 Lazy Loading
+	- whenever u required a particular module or component that time it is loaded 
+	- It increase ur Performance 
+	- It increase ur Speed 
+	- we have to create one module at the same time we have create its routing file 
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
