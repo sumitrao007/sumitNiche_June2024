@@ -1,0 +1,39 @@
+Last Lecture Agenda
+1 Child Routes
+	
+2 Lazy Loading
+	- whenever u required a particular module or component that time it is loaded 
+	- It increase ur Performance 
+	- It increase ur Speed 
+	- we have to create one module at the same time we have create its routing file 
+	
+	
+
+
+Today's Lecture Agenda
+1 Modify the Routing 
+2 Subject
+	- It is Present in Rx jx lib 
+3 BehaviouralSubject
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
