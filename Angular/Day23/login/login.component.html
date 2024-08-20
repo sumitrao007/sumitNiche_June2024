@@ -1,0 +1,9 @@
+<p>login works!</p>
+
+<label for="">Username:: </label>
+<input #username type="text" placeholder="Enter the Username"> <br><br>
+
+<label for="">Password:: </label>
+<input #password type="password" placeholder="Enter the Password"> <br><br>
+
+<button (click)="onLogin(username.value,password.value)" >Login</button>

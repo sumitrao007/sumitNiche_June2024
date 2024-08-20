@@ -1,0 +1,31 @@
+Last Lecture Agenda
+1 Modify the Routing 
+2 Subject
+	- It is Present in Rx jx lib 
+3 BehaviouralSubject
+
+Today's Lecture Agenda
+1 Auth
+2 Auth Route/Auth Guard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
