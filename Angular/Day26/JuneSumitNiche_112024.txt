@@ -1,0 +1,44 @@
+Last Lecture Agenda
+1 TDf => Template diven Form
+	- login form ,signup ,f/b form 
+	- All basic level validation is done on view file 
+2 FormControl => It is simple class 
+	1 valid => true/false
+	2 invalid => true /false
+	3 touched => true /false 
+	4 pristine => true / false 
+	5 dirty  => true /false 
+	6 errors => Object
+	
+	steps 
+	1 To create Object/instance=> We have to use ngModel without its notation. We have to use name attribute  
+	2 Assign the ngModel to template ref variable 
+	3 we have to use required attribute u can use errors object
+
+
+
+		
+
+Today's Lecture Agenda
+1 TDF Continue 
+2 ngValue 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
