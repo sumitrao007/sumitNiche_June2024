@@ -1,0 +1,117 @@
+<p>reactiveforms works!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <form [formGroup]="reactiveFormGroup" (ngSubmit)="onSubmit()" >
+                <div class="mb-3 mt-3">
+                    <label for="">Username::</label>
+                    <input type="text" placeholder="Enter the Username" formControlName="username"
+                    class="form-control">
+
+                    <div class="alert alert-danger"
+                    *ngIf="reactiveFormGroup.get('username')?.invalid &&reactiveFormGroup.get('username')?.touched"
+                        
+                    > **please Enter the Username 
+
+                    <div *ngIf="reactiveFormGroup.get('username')?.errors?.['minlength']">
+                        ** Please enter min {{reactiveFormGroup.get('username')?.errors?.['minlength']?.requiredLength}} characters as username.
+                    </div>
+
+                    <div *ngIf="reactiveFormGroup.get('username')?.errors?.['pattern']">
+                        ** Please Enter the Appropriate Pattern
+                    </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="mb-2 mt-2">
+                    <label for="">Comment::</label>
+                    <textarea
+                      type="text"
+                      placeholder="Enter the Comment"
+                      class="form-control"
+                      formControlName="comment"
+                    ></textarea>
+
+                    <div class="alert alert-danger"
+                        *ngIf="reactiveFormGroup.get('comment')?.touched && reactiveFormGroup.get('comment')?.invalid"
+                    >
+                        **Please Enter teh Comment
+
+                    </div>
+                    
+                  </div>
+                  <div class="checkbox">
+                    <label for="check1">
+                      <input type="checkbox" id="check1" formControlName="subscribed" />
+                      I Agree All the Terms & Conditions.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="con0">
+                      <input
+                        formControlName="contact"
+                        type="radio"
+                        id="con0"
+                        value="email"
+                      />
+                      Email
+                    </label>
+                  </div>
+          
+                  <div class="radio">
+                    <label for="con1">
+                      <input
+                        formControlName="contact"
+                        type="radio"
+                        id="con1"
+                        value="phone"
+                      />
+                      Phone
+                    </label>
+                  </div>
+          
+                  <div class="mt-2 mb-1">
+                    <label for="country">Country</label>
+                    <select
+                     formControlName="country"
+                      id="country"
+                      class="form-control"
+                      
+                    >
+                      <option *ngFor="let item of country" 
+                       [value]="item.cid">{{item.cname}} </option> 
+                    
+                      <!-- <option value="" selected>Please select </option> -->
+                      
+                    </select>
+                  </div>
+          
+                  <div class="mt-2 mb-1">
+                      <label for="myemail">Email Id</label>
+                      <input  type="email"  
+                       id="myemail" class="form-control"                     
+                      placeholder="Enter the Email ID...." 
+                      formControlName="email"                
+                      >     
+                      <div class="alert alert-danger"
+                      *ngIf="reactiveFormGroup.get('email')?.invalid &&reactiveFormGroup.get('email')?.touched "
+                    >* Please Enter the Email Id <br>
+                      <small *ngIf="reactiveFormGroup.get('email')?.errors?.['pattern']" >*Please Enter Appropriate Email ID  </small>
+                    </div>             
+                      
+                  </div>
+                
+                  <br>
+                  <button type="submit" [disabled]="!reactiveFormGroup.valid" class="btn btn-outline-success">Submit</button>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>

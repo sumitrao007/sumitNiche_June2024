@@ -1,0 +1,34 @@
+Last Lecture Agenda
+1 TDF Continue 
+2 ngValue 
+
+Today's Lecture Agenda
+1 Reactive Form
+2 ReactiveFormsModule 
+	app.module.ts file => Import 
+	FormBuilder vs FormGroup 
+	* FormBuilder
+		- It is a service 
+	
+	* FormGroup
+		- It is class & create a instance in component 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
